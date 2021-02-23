@@ -1,0 +1,11 @@
+{
+  "name": "viteui-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "author": "bhabgs",
+  "license": "ISC"
+}
