@@ -4,8 +4,10 @@
  * @Author: bhabgs
  * @Date: 2020-12-02 11:21:27
  * @LastEditors: bhabgs
- * @LastEditTime: 2020-12-07 13:29:38
+ * @LastEditTime: 2021-02-23 14:37:39
  */
+
+import type { baseObject } from './types';
 
 const getQueryUrl = (): string => {
   return window.location.search.substr(1) || window.location.hash.split('?')[1];

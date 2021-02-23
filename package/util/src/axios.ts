@@ -4,9 +4,10 @@
  * @Author: bhabgs
  * @Date: 2020-12-02 09:23:52
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 11:36:02
+ * @LastEditTime: 2021-02-23 14:34:05
  */
 import axios from 'axios';
+import type { PLATFORM, baseObject } from './types';
 import { getAllQuery } from './getQuery';
 import { platForm } from './system.info';
 

@@ -4,7 +4,7 @@
  * @Author: bhabgs
  * @Date: 2021-01-05 14:05:58
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 11:27:40
+ * @LastEditTime: 2021-02-23 14:47:04
  */
 import type { App } from 'vue';
 import type { baseObject } from './types';

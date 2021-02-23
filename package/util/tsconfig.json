@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2015",
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
     "declaration": true,
     "outDir": "./lib",
-    "sourceMap": true,
+    "rootDir": "src",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
-    "types": ["vite/client", "./types"]
+    "types": ["./src/types"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }

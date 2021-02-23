@@ -174,11 +174,15 @@ var install = function (app) {
     app.use(COMPS[key]);
   }
 };
+
+var n = {
+  a: 666
+};
 var index = {
   install: install,
   version: VERSION
 };
 
 export default index;
-export { Button as button, viLayout, viLayoutFooter, viLayoutHeader, viLayoutMain, viLayoutSider };
+export { Button as button, n, viLayout, viLayoutFooter, viLayoutHeader, viLayoutMain, viLayoutSider };
 //# sourceMappingURL=index.js.map

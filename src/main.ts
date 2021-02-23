@@ -4,7 +4,7 @@
  * @Author: bhabgs
  * @Date: 2021-02-21 15:25:14
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 11:24:58
+ * @LastEditTime: 2021-02-23 14:31:03
  */
 import { createApp } from 'vue';
 import vui from '../package/vitevui';

@@ -2,9 +2,10 @@
   "name": "viteui-util",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "author": "bhabgs",
   "license": "ISC"
