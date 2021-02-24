@@ -4,19 +4,20 @@
  * @Author: bhabgs
  * @Date: 2021-01-20 16:57:35
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 15:30:06
+ * @LastEditTime: 2021-02-24 10:29:50
  */
 
 import typescript from '@rollup/plugin-typescript';
+import path from 'path';
+import output from './build/output';
+
+const resolve = (filePath) => {
+  return path.join(__dirname, '..', filePath);
+};
 
 export default {
   input: 'src/index.ts',
-  output: {
-    dir: 'lib',
-    format: 'es',
-    sourcemap: true,
-    name: 'vitevu',
-  },
+  output,
   plugins: [
     typescript({
       lib: ['esnext', 'dom', 'ES2015.Promise', 'ES5'], // , 'es6', 'dom'

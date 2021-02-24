@@ -5,11 +5,12 @@
     "moduleResolution": "node",
     "strict": true,
     "declaration": true,
+    "declarationDir": "./lib/types",
     "outDir": "./lib",
     "rootDir": "src",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "types": ["./src/types"],
+    "types": [],
     "paths": {
       "@/*": ["./src/*"]
     }

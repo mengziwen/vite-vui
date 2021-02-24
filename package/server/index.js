@@ -4,11 +4,15 @@
  * @Author: bhabgs
  * @Date: 2021-02-21 17:10:05
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-22 09:04:49
+ * @LastEditTime: 2021-02-24 09:47:59
  */
 const Koa = require('koa');
 const path = require('path');
 const static = require('koa-static');
+
+const resolve = (filePath) => {
+  return path.join(__dirname, '..', filePath);
+};
 
 const app = new Koa();
 
@@ -16,6 +20,8 @@ const app = new Koa();
 const staticPath = './dist';
 
 app.use(static(path.join(__dirname, staticPath)));
+
+console.log(resolve('.'));
 
 // app.use(async (ctx) => {
 //   ctx.body = 'hello world';

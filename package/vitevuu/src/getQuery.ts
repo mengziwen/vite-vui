@@ -4,7 +4,7 @@
  * @Author: bhabgs
  * @Date: 2020-12-02 11:21:27
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 14:37:39
+ * @LastEditTime: 2021-02-24 09:44:31
  */
 
 import type { baseObject } from './types';
@@ -43,7 +43,8 @@ const getAllQuery: (s?: string) => baseObject = (s) => {
 };
 
 const install = {
-  ...{ getQueryString, getAllQuery },
+  getQueryString,
+  getAllQuery,
 };
 
 export { getQueryString, getAllQuery };

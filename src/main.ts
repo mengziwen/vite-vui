@@ -4,10 +4,11 @@
  * @Author: bhabgs
  * @Date: 2021-02-21 15:25:14
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 14:31:03
+ * @LastEditTime: 2021-02-24 10:50:20
  */
 import { createApp } from 'vue';
 import vui from '../package/vitevui';
+import util from '../package/vitevuu';
 import App from './lay';
 import './assets/style/index.less';
 import '../package/vitevui/src/style/index.less';

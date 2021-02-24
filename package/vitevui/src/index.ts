@@ -4,7 +4,7 @@
  * @Author: bhabgs
  * @Date: 2021-01-05 14:05:58
  * @LastEditors: bhabgs
- * @LastEditTime: 2021-02-23 14:47:04
+ * @LastEditTime: 2021-02-24 09:12:51
  */
 import type { App } from 'vue';
 import type { baseObject } from './types';
@@ -32,6 +32,10 @@ const install = (app: App) => {
   }
 };
 
+const n: baseObject = {
+  a: 666,
+};
+
 export {
   viLayout,
   viLayoutHeader,
@@ -39,6 +43,7 @@ export {
   viLayoutMain,
   viLayoutFooter,
   button,
+  n,
 };
 
 export default {
